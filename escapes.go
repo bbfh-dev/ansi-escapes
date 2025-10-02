@@ -31,6 +31,8 @@ const (
 	CursorLeft     = Esc + "G"
 	CursorTop      = Esc + "d"
 	CursorTopLeft  = Esc + "H"
+	CursorSave     = Esc + "s"
+	CursorRestore  = Esc + "u"
 
 	CursorBlinkEnable  = Esc + "?12h"
 	CursorBlinkDisable = Esc + "?12I"
